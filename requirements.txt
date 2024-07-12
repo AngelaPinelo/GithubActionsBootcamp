@@ -6,3 +6,4 @@
 pytest
 Flask
 SQLAlchemy
+Flask-SQLAlchemy
