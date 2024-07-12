@@ -22,3 +22,6 @@ jobs:
       # - name: Ejecucion de Pruebas
       #   run: pytest
 
+      - name: Imprimir compilación exitosa
+        run: echo "Compilación exitosa"
+
