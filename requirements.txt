@@ -4,3 +4,5 @@
 # pytest==6.2.5
 # SQLAlchemy==1.4.22
 pytest
+Flask
+SQLAlchemy
