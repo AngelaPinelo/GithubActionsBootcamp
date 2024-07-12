@@ -22,7 +22,7 @@ def test_get_books(client):
 
 def test_create_book(client):
     new_book = {
-        'isbn': '1234567890',
+        'isbn': '1234ui7890',
         'title': 'Test Book',
         'author': 'Test Author',
         'quantity': 10,
