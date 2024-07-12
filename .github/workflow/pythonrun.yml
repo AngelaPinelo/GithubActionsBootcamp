@@ -1,0 +1,28 @@
+name: Python construction
+
+on:
+  push: 
+    branches: ["main"]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Hacer checkout del proyecto
+        uses: actions/checkout@v4
+
+      - name: Configurar python
+        uses: actions/setup-python@v5
+        with: 
+          python-version: '3.9.10'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      
+      - name: Ejecucion de Pruebas
+        run: python -m unittest discover -s tests
+
+
+    
+
